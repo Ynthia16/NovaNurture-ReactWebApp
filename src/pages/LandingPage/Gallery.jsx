@@ -19,23 +19,23 @@ const Gallery = () => {
           </h1>
         </div>
         <p className="w-2/6 text-base self-center">
-          Lorem ipsum dolor sit amet consectetur. Convallis est urna adipiscing
-          fringilla nulla diam lorem non mauris. Ultrices aliquet at quam.
+          Discover tranquility in our gallery of beauty. Explore stunning landscapes and serene vistas that captivate the senses. Lose yourself in nature's embrace as you find moments of peace and rejuvenation.
         </p>
       </div>
 
       {/* images */}
 
-      <div className="grid grid-cols-4 gap-4 py-5 h-min ">
-        <img src={Whale} alt="" className="object-cover h-[35vh] w-full " />
-        <img src={Baek} alt="" className="object-cover h-[35vh] w-full object-center "  />
-        <img src={Semmer} alt="" className="object-cover h-[35vh] w-full object-center "  />
-        <img src={Elif} alt="" className="object-cover h-[35vh] w-full object-center "  />
-        <img src={Ocean} alt="" className="object-cover h-[35vh] w-full object-center self-start"  />
-        <img src={Woman} alt="" className="object-cover h-[35vh] w-full object-center"  />
-        <img src={Igra} alt="" className="object-cover h-[35vh] w-full object-center"  />
-        <img src={Starry} alt="" className="object-cover h-[35vh] w-full object-center"  />
-      </div>    </div>
+      <div className="grid grid-cols-4 gap-4 py-10 h-min ">
+        <img src={Whale} alt="" className="object-cover h-[35vh] w-full rounded-xl" />
+        <img src={Baek} alt="" className="object-cover h-[35vh] w-full object-center rounded-xl"  />
+        <img src={Semmer} alt="" className="object-cover h-[35vh] w-full object-center rounded-xl"  />
+        <img src={Elif} alt="" className="object-cover h-[35vh] w-full object-center rounded-xl"  />
+        <img src={Ocean} alt="" className="object-cover h-[35vh] w-full object-center self-start rounded-xl"  />
+        <img src={Woman} alt="" className="object-cover h-[35vh] w-full object-center rounded-xl"  />
+        <img src={Igra} alt="" className="object-cover h-[35vh] w-full object-center rounded-xl"  />
+        <img src={Starry} alt="" className="object-cover h-[35vh] w-full object-center rounded-xl"  />
+      </div>
+    </div>
   );
 };
 

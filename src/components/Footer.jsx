@@ -24,20 +24,20 @@ const Footer = () => {
                 className="w-12 h-12 brightness-200 invert-0"
               />
               <h3 className="font-semibold text-xl text-white m-0">
-                NovaNarture
+                NovaNurture
               </h3>
             </div>
             <p className="text-white ">
-              Lorem ipsum dolor sit amet consectetur. Convallis est urna.
+              NovaNurture: Inspiring, empowering, community. Join us!
             </p>
           </div>
           <div className="flex flex-col gap-6 justify-self-center">
             <h1 className="font-semibold text-xl text-white m-0">Services</h1>
             <div className="flex flex-col gap-3">
-              <p>Freedom of speech </p>
-              <p>Tour others lives</p>
+              <p>Discover Daily Inspiration </p>
+              <p>Join a Supportive Community</p>
               <p>Daily refreshment</p>
-              <p>Interactive platform</p>
+              <p>Customize Your Journey</p>
             </div>
           </div>
           <div className="flex flex-col gap-6">
@@ -65,7 +65,7 @@ const Footer = () => {
             </div>
           </div>
         </div>
-        <div className="text-center pt-10 flex flex-col gap-4">
+        <div className="text-center pt-8 flex flex-col gap-4">
           <div className="text-secondaryDark text-xl flex justify-center gap-4">
             <p className="rounded-full bg-white p-1.5 w-fit ">
               <FaInstagram />

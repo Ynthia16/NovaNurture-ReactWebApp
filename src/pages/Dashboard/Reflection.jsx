@@ -15,7 +15,7 @@ const Reflection = () => {
   return (
     <div className="flex items-center h-screen divide-x-2 divide-black">
       <div className="flex-1 flex flex-col w-full h-screen border-r-2 divide-y-2">
-        <p className="text-center py-10 text-lg">Create a post</p>
+        <p className="text-center py-10 text-lg">Pause and Ponder</p>
         <div className="flex-1 relative">
           <textarea
             value={post}
@@ -25,7 +25,7 @@ const Reflection = () => {
             className="w-full h-full focus:outline-none p-5 text-lg"
             name=""
             id=""
-            placeholder="Share your thought"
+            placeholder="What small victory or moment of gratitude brought a smile to your face today?"
           />
 
           <Button

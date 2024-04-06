@@ -32,7 +32,7 @@ const Login = () => {
         className="w-screen h-screen object-center "
       />
       <form
-        className="absolute top-[15vh] right-[12vw] h-[70vh] w-[25vw] bg-white bg-opacity-[.06] rounded-2xl text-white px-10 py-5 flex flex-col gap-10"
+        className="absolute top-[6vh] right-[12vw] h-[90vh] w-[25vw] bg-white bg-opacity-[.06] rounded-2xl text-white px-10 py-5 flex flex-col gap-10"
         action=""
       >
         <div className="flex flex-col gap-2">
@@ -45,7 +45,7 @@ const Login = () => {
           <input
             type="text"
             placeholder="Enter your email"
-            className="bg-transparent border border-gray-200 rounded-xl px-2 py-3 w-full placeholder:text-gray-300 focus:outline-none"
+            className="bg-transparent border border-gray-200 rounded-xl px-2 py-2 w-full placeholder:text-gray-300 focus:outline-none"
             onChange={(e) =>
               setFormData({ ...formData, email: e.target.value })
             }
@@ -61,7 +61,7 @@ const Login = () => {
               onChange={(e) =>
                 setFormData({ ...formData, password: e.target.value })
               }
-              className="bg-transparent border border-gray-200 rounded-xl px-2 py-3 w-full placeholder:text-gray-300 focus:outline-none"
+              className="bg-transparent border border-gray-200 rounded-xl px-2 py-2 w-full placeholder:text-gray-300 focus:outline-none"
               required
             />
             <p className="text-end pt-2 font-thin cursor-pointer" onClick={()=>navigate("/forgot_password")}>Forgot password?</p>

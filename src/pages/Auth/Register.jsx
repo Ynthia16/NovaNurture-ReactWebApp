@@ -47,14 +47,14 @@ const Register = () => {
         className="w-screen h-screen object-center "
       />
       <form
-        className="absolute top-[9vh] right-[12vw] h-[82vh] w-[25vw] bg-white bg-opacity-[.06] rounded-2xl text-white px-10 py-5 flex flex-col gap-10"
+        className="absolute top-[3vh] right-[12vw] h-[95vh] w-[25vw] bg-white bg-opacity-[.06] rounded-2xl text-white px-10 py-5 flex flex-col gap-7"
         action=""
       >
         <div className="flex flex-col gap-2">
           <h1 className="m-0 text-xl font-semibold">Register</h1>
           <p className="font-thin">Register now to be one of us!</p>
         </div>
-        <div className="flex flex-col gap-4">
+        <div className="flex flex-col gap-3">
           <p>Email</p>
           <input
             type="text"
@@ -62,10 +62,10 @@ const Register = () => {
             onChange={(e) =>
               setFormData({ ...formData, email: e.target.value })
             }
-            className="bg-transparent border border-gray-200 rounded-xl px-2 py-3 w-full placeholder:text-gray-300 focus:outline-none"
+            className="bg-transparent border border-gray-200 rounded-xl px-2 py-2 w-full placeholder:text-gray-300 focus:outline-none"
           />
         </div>
-        <div className="flex flex-col gap-4">
+        <div className="flex flex-col gap-3">
           <p>Password</p>
           <input
             type="password"
@@ -73,15 +73,15 @@ const Register = () => {
             onChange={(e) =>
               setFormData({ ...formData, password: e.target.value })
             }
-            className="bg-transparent border border-gray-200 rounded-xl px-2 py-3 w-full placeholder:text-gray-300 focus:outline-none"
+            className="bg-transparent border border-gray-200 rounded-xl px-2 py-2 w-full placeholder:text-gray-300 focus:outline-none"
           />
         </div>
-        <div className="flex flex-col gap-4">
+        <div className="flex flex-col gap-3">
           <p>Confirm password</p>
           <input
             type="password"
             placeholder="Confirm your password"
-            className="bg-transparent border border-gray-200 rounded-xl px-2 py-3 w-full placeholder:text-gray-300 focus:outline-none"
+            className="bg-transparent border border-gray-200 rounded-xl px-2 py-2 w-full placeholder:text-gray-300 focus:outline-none"
           />
         </div>
 

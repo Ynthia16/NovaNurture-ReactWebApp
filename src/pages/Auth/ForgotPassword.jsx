@@ -14,16 +14,16 @@ const ForgotPassword = () => {
   };
   return (
     <div className="flex-1 w-full h-screen justify-center align-middle pt-20 m-auto bg-slate-50 items-center   ">
-      <div className="w-[40%] self-center m-auto rounded-lg bg-white px-20 py-10 shadow-xl">
-        <img
+      <div className="w-[40%] self-center m-auto rounded-lg  bg-[#22404C] px-20 py-10 shadow-xl">
+        {/* <img
           src={resetPassword}
           alt="Reset Password"
           className="w-[100px] h-[100px] object-center m-auto"
-        />
+        /> */}
 
         <div className="flex flex-col gap-2 text-center">
-          <h1 className="m-0 text-xl font-semibold">Forgot your Password ?</h1>
-          <p className="font-thin">
+          <h1 className="m-0 text-xl font-semibold text-white">Forgot your Password ?</h1>
+          <p className="font-thin text-white">
             Enter your email so that we can send you a reset link.
           </p>
         </div>
@@ -41,14 +41,14 @@ const ForgotPassword = () => {
 
           <Button
             title="RESET PASSWORD"
-            styles="bg-[#294C5A] font-semibold w-full"
+            styles="bg-lightGreen font-semibold w-full"
             type="submit"
             onClick={handleReset}
           />
         </form>
         <div className="flex flex-col gap-2 text-center mt-2">
           <p
-            className="font-semibold cursor-pointer self-center"
+            className="font-semibold cursor-pointer self-center text-white"
             onClick={() => navigate("/login")}
           >
             Back to Login

@@ -48,13 +48,14 @@ const Mood = () => {
       {/* {formError && <p className="text-red-700">Please type something</p>} */}
       <textarea
         className="placeholder:text-xl text-xl text-light-200 bg-transparent py-2 w-full active:bg-transparent focus:bg-transparent outline-none h-[15svh]"
-        placeholder="What's on your mind today?"
+        placeholder=" Hey Lovely! How are you feeling today? "
+
         name="text"
         // value={postData.post}
         // onChange={(e) => handleFormChange(e)}
       />
 
-      <div className="w-full flex justify-between items-center mt-4  gap-4">
+      <div className="w-full flex justify-between items-center mt-1  gap-4">
         <select
           name="mood"
           className="bg-transparent px-4 py-2 border rounded-lg"

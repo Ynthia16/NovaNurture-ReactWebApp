@@ -37,7 +37,7 @@ const Post = () => {
 ,[])
   return (
     <div className="h-[100vh] overflow-y-scroll px-20 py-1" >
-      <p className="text-center py-10 text-lg font-bold">Edit profile</p>
+      <p className="text-center py-8 text-lg font-semibold">Shared Reflections</p>
       <div className="w-full h-full ">
         {
           postList.map((ele,index)=>{

@@ -12,9 +12,9 @@ const Testimonies = () => {
           Top inspiring stories for you
         </h1>
 
-        <div className="flex pt-20 pb-28 gap-4">
+        <div className="flex pt-20 pb-16 gap-4 px-20">
           <ImageTextCard
-            userName="John Doe"
+            userName="Lisa Cynthia"
             icon={
               <FaUserCircle
                 size={100}
@@ -23,8 +23,8 @@ const Testimonies = () => {
               />
             }
           >
-            Lorem ipsum dolor sit amet consectetur. Convallis est urna
-            adipiscing fringilla nulla diam lorem non mauris.
+            Learn how Lisa, a cancer survivor, founded a nonprofit to support cancer patients and their families.
+            Her kindness and compassion spread hope to those in need.
           </ImageTextCard>
           <ImageTextCard
             userName="John Doe"
@@ -36,11 +36,11 @@ const Testimonies = () => {
               />
             }
           >
-            Lorem ipsum dolor sit amet consectetur. Convallis est urna
-            adipiscing fringilla nulla diam lorem non mauris.
+            Read about John, who helped a stranded motorist on a rainy night,
+            restoring their faith in humanity with a simple act of kindness..
           </ImageTextCard>
           <ImageTextCard
-            userName="John Doe"
+            userName="Emily Doe"
             icon={
               <FaUserCircle
                 size={100}
@@ -49,8 +49,8 @@ const Testimonies = () => {
               />
             }
           >
-            Lorem ipsum dolor sit amet consectetur. Convallis est urna
-            adipiscing fringilla nulla diam lorem non mauris.
+            Follow Emily's journey from homelessness to success.
+            Despite obstacles, she worked through college and became an entrepreneur and advocate for the homeless.
           </ImageTextCard>
         </div>
       </div>

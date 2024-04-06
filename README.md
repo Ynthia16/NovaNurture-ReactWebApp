@@ -63,7 +63,7 @@ Components:
 Frequently Asked Questions (FAQs) section.
 Contact support option.
 
-        ### Getting Started
+### Getting Started
 To set up and run NovaNurture, follow these steps:
 
 #### Clone the Repository:

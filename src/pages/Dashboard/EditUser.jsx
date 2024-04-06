@@ -17,19 +17,19 @@ const EditUser = () => {
 
   return (
     <div>
-      <p className="text-center py-10 text-lg font-bold">Edit profile</p>
+      <p className="text-center py-10 text-lg  font-semibold pl-60">Edit profile</p>
 
       <div>
         <form
-          style={{ display: "flex", flexDirection: "column", gap: 10 }}
+          style={{ display: "flex", flexDirection: "column", gap: 8 }}
           className="w-[70%] max-w-[1200px] mx-auto "
         >
-          <div className="mb-5 w-full flex-row ">
-            <label className=" text-sm font-bold mb-2" htmlFor="name">
+          <div className="mb-5 w-full flex-row">
+            {/* <label className=" text-sm font-semibold mb-2" htmlFor="name">
               Name
-            </label>
+            </label> */}
             <input
-              className="shadow  border rounded  py-1 px-3  leading-tight focus:outline-none focus:shadow-outline w-4/6 float-end"
+              className="shadow  border rounded  py-3 px-3  leading-tight focus:outline-none focus:shadow-outline w-4/6 float-end"
               id="name"
               type="text"
               placeholder="NAME"
@@ -38,11 +38,11 @@ const EditUser = () => {
             />
           </div>
           <div className="w-full flex-row ">
-            <label className=" text-sm font-bold mb-2" htmlFor="email">
+            {/* <label className=" text-sm font-semibold mb-2" htmlFor="email">
               Email
-            </label>
+            </label> */}
             <input
-              className="shadow appearance-none border rounded  py-1 px-3 mb-3 leading-tight focus:outline-none focus:shadow-outline  w-4/6 float-end"
+              className="shadow appearance-none border rounded  py-3 px-3 mb-3 leading-tight focus:outline-none focus:shadow-outline  w-4/6 float-end"
               id="email"
               type="text"
               placeholder="EMAIL"
@@ -51,21 +51,21 @@ const EditUser = () => {
             />
           </div>
           <div className="w-full flex-row ">
-            <label className=" text-sm font-bold mb-2" htmlFor="password">
+            {/* <label className=" text-sm font-semibold mb-2" htmlFor="password">
               Password
-            </label>
+            </label> */}
             <Button
               title="RESET PASSWORD"
-              styles="bg-lightGreen font-semibold py-1 w-4/6 float-end"
+              styles="bg-lightGreen font-semibold w-4/6 float-end"
               type="submit"
             />
           </div>
         </form>
       </div>
-      <div className="w-full flex align-middle my-20 ">
+      <div className="w-full flex align-middle my-10 pl-60">
         <Button
           title="SAVE CHANGES"
-          styles="bg-[#294C5A] font-semibold py-1 w-[30%] m-auto "
+          styles="bg-[#294C5A] font-semibold w-[30%] m-auto "
           type="submit"
           onClick={() => {
             editUser(id, auth.currentUser, name, email);

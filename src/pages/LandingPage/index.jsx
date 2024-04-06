@@ -10,6 +10,7 @@ import Testimonies from "./Testimonies";
 import FAQ from "./FAQ";
 import Footer from "../../components/Footer";
 import Gallery from "./Gallery";
+import Statistics from '../../components/Statistics'
 import { useNavigate } from "react-router-dom";
 
 const LandingPage = () => {
@@ -41,9 +42,9 @@ const LandingPage = () => {
         </div>
 
         {/* Hero section */}
-        <div className="grid grid-cols-2 gap-10">
+        <div className="grid grid-cols-2 gap-8">
           {/* Intro text */}
-          <div className="flex flex-col gap-12 self-center ">
+          <div className="flex flex-col gap-10 self-center ">
             <h1 className="text-[55px] font-bold m-0">
               Healthy Minds, Happy Lives{" "}
               <span className="text-secondaryLight">Mental Health</span>
@@ -67,7 +68,12 @@ const LandingPage = () => {
           </div>
           <img src={Doctor} alt="Doctor" />
         </div>
+       
       </div>
+      {/* <div className="" >
+        <Statistics />
+      </div> */}
+      
       <div id="about">
         <About />
       </div>
@@ -89,6 +95,7 @@ const LandingPage = () => {
       <div id="footer">
         <Footer />
       </div>
+      {/* <Statistics/> */}
     </>
   );
 };

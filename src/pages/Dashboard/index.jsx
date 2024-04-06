@@ -72,7 +72,7 @@ export default function MainProtectedLayout() {
       <div className="bg-secondaryLight h-screen w-1/5  py-5 flex flex-col justify-between">
         <div className="flex items-center gap-5 px-5">
           <img src={LogoDash} alt="Not Found" className="w-12 h-12" />
-          <h3 className="font-semibold text-xl text-white m-0">NovaNarture</h3>
+          <h3 className="font-semibold text-xl text-white m-0">NovaNurture</h3>
         </div>
         {/* navlinks */}
         <div className="grid place-content-center gap-4 w-full">
@@ -84,7 +84,7 @@ export default function MainProtectedLayout() {
                   pathname.includes(item.title.toLowerCase())
                     ? "text-black bg-lightGreen "
                     : "text-white "
-                } flex gap-3 px-5 py-3 w-full`}
+                } flex gap-3 px-16 py-3 w-full`}
               >
                 {item.icon}
                 <p className={` text-lg`}>{item.title}</p>
